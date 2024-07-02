@@ -1,1 +1,1 @@
-# Drawing-with-LLM
+### Teaching LLMs how to draw
