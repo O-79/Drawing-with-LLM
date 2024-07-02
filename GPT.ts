@@ -35,7 +35,7 @@ class GPT {
 async function main() {
   let message = "";
   let subject = "9x9 ascii face";
-  let chars = "~ _ - \ / | *"
+  let chars = "~ _ - \ / | *";
   
   message = "no extra description or explanation: draw a " + subject + " using only these available characters as needed: " + chars;
   try {
