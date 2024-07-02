@@ -47,7 +47,7 @@ async function main() {
   await new Promise(f => setTimeout(f, 1000));
   
   let grade = "";
-  message = "respond with a single letter: could you improve this face any further? FALSE - 'A' , TRUE - 'B'";
+  message = "respond with a single letter: could you improve this " + subject + " any further? FALSE - 'A' , TRUE - 'B'";
   try {
     const answer = await GPT.GET_ANS(message);
 	grade = answer[0];
@@ -67,7 +67,7 @@ async function main() {
     }
 	await new Promise(f => setTimeout(f, 500));
 	
-	message = "respond with a single letter: could you improve this face any further? FALSE - 'A' , TRUE - 'B'";
+	message = "respond with a single letter: could you improve this " + subject + " any further? FALSE - 'A' , TRUE - 'B'";
     try {
       const answer = await GPT.GET_ANS(message);
    	  grade = answer[0];
